@@ -2,6 +2,7 @@ var tl=gsap.timeline();
 
 tl.from('h3',{
   y:-100,
+  delay:1,
   duration:.6,
   color:'red',
   stagger:0.2
