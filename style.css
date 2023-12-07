@@ -1,0 +1,73 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body,html{
+  width:100%;
+  height:100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main{
+  width:100%;
+  height:100%;
+  background-color: black;
+}
+
+.nav{
+  padding:1vw 1.8vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navright{
+  display: flex;
+  gap:2vw;
+}
+
+h3{
+  text-transform: uppercase;
+  font-size: 1.1vw;
+  font-weight: 500;
+  color:white;
+}
+
+
+.navleft h3{
+  font-size: 1.8vw;
+}
+
+.name{
+  color:white;
+  width:600px;
+  padding:1.2vw 4vw;
+  top:63%;
+  left:50%;
+  position: relative;
+  transform:translate(-50%,-50%);
+}
+
+.name h1{
+  font-size: 5vw;
+  font-weight: 600;
+  
+}
+
+.name h1:nth-child(2n){
+  text-align: right;
+}
+
+ img{
+  position: absolute;
+  top:30%;
+  width:600px;
+  height:300px;
+  transform: translate(-50%,-50%);
+  object-fit: cover;
+  left:50%;
+  border-radius: 6vw;
+  /* transform: rotate(10deg); */
+}
